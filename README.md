@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/alan5412/Advice-Generator/)
-- Live Site URL: [Add live site URL here](https://alan5412.github.io/Advice-Generator/)
+- Solution URL: [GITHUB](https://github.com/alan5412/Advice-Generator/)
+- Live Site URL: [Advice-generator](https://alan5412.github.io/Advice-Generator/)
 
 ## My process
 
