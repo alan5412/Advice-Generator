@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.content{
+    margin: 0;
+
+}
+h4{
+    color:hsl(150, 100%, 66%);
+    margin-bottom: 1rem;
+    text-transform: uppercase; 
+    letter-spacing: .3rem; 
+    font-size: .7rem ;  
+}
+
+.text-advice{
+    color: hsl(193, 38%, 86%);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.desktop-image, .mobile-image{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.desktop-image{
+    display: none;
+}
+
+.button{
+   background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%; 
+    bottom: -1.5rem; 
+    transform: translateX(-50%);
+    
+    &&:hover{
+        cursor: pointer;
+        background-color: hsl(150, 100%, 66%);
+        box-shadow: 0 0 1rem hsl(150, 100%, 66%);
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .desktop-image{
+        display: block;
+    }
+    .mobile-image{
+        display: none;
+    }
+
+    .card{
+        width: 30rem;
+    }
+    
+}
